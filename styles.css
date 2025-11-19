@@ -23,6 +23,7 @@ body {
 
 .head {
   display: flex;
+  gap: 16px;
 }
 
 .fullname {
