@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: "poppins";
+  height: 100vh;
+}
+
+.mainbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 339px;
+  width: 434px;
+  height: 794px;
+  gap: 20px;
+  height: 100vh;
+}
+
+.head {
+  display: flex;
+}
+
+.fullname {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputfullname {
+  width: 432px;
+  height: 60px;
+  font-size: 20px;
+  font-family: "poppins";
+  padding-left: 16px;
+}
+
+.inputfullnamelabel {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputemail {
+  width: 432px;
+  height: 60px;
+  font-size: 20px;
+  font-family: "poppins";
+  padding-left: 16px;
+}
+
+.inputemaillabel {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputepassword {
+  width: 432px;
+  height: 60px;
+  font-size: 20px;
+  font-family: "poppins";
+  padding-left: 16px;
+}
+
+.inputepasswordlabel {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.button {
+  width: 433px;
+  height: 69px;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 166%;
+  background-color: #4443ff;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 9px 9px 10px 0px #7271ff40;
+  font-family: "poppins";
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.signupgoogle {
+  width: 433px;
+  height: 69px;
+  margin-top: 13px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  gap: 24px;
+  border-width: 1px;
+  border-color: #949494;
+  background-color: white;
+  font-family: "poppins";
+}
+
+.alreadyhave {
+  margin-top: 20px;
+}
+
+.login {
+  color: #7271ff;
+  text-decoration: underline;
+}
+
+.text {
+  font-family: "poppins";
+  font-weight: 300;
+  font-style: light;
+  font-size: 18px;
+  line-height: 166%;
+}
+
+.header {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 166%;
+}
